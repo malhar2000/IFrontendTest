@@ -13,7 +13,7 @@ export default function Navbar() {
           iframe Test App
         </div>
         <div className="flex gap-4">
-          <Link 
+          {/* <Link 
             href="/company" 
             className={`px-4 py-2 rounded transition-colors ${
               pathname === '/company' 
@@ -32,7 +32,7 @@ export default function Navbar() {
             }`}
           >
             RFQ Page
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
